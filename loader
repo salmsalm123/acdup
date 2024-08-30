@@ -3,5 +3,6 @@ if game.PlaceId == 7346416636 then
 elseif game.PlaceId == 7903991471 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/salmsalm123/supported/main/PetsTradingPremium'))()
 else
-    print("unsupported game")
+    local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+    Fluent:Notify({Title = "Uni Hub", Content = "Unsupported Game", Duration = 2})
 end
